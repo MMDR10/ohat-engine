@@ -1,0 +1,1192 @@
+{
+  "case": "hagibis_2019",
+  "n_frames": 174,
+  "duration_h": 1460.0,
+  "checks": [
+    {
+      "name": "ERC_ACTIVE detected",
+      "passed": true,
+      "detail": "156 triggers, \u03b8 range=27.521635055541992\u00b0"
+    },
+    {
+      "name": "RI_PRECURSOR detected",
+      "passed": true,
+      "detail": "6 triggers"
+    },
+    {
+      "name": "\u03b8\u2081 range > 10\u00b0 (variability)",
+      "passed": true,
+      "detail": "range=38.9\u00b0"
+    },
+    {
+      "name": "dH_curl variability > 0",
+      "passed": true,
+      "detail": "std=7.22e-06"
+    },
+    {
+      "name": "dH_curl has dynamic range",
+      "passed": true,
+      "detail": "range=4.35e-05"
+    }
+  ],
+  "n_passed": 5,
+  "n_total": 5,
+  "triggers": [
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 20.0,
+      "theta_range_deg": 27.521635055541992,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 24.0,
+      "theta_range_deg": 27.521635055541992,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 28.0,
+      "theta_range_deg": 27.521635055541992,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 32.0,
+      "theta_range_deg": 27.521635055541992,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 32.0,
+      "theta_drop_deg": 16.877140045166016,
+      "dh_surge_pct": 243.16668411747645,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 36.0,
+      "theta_range_deg": 27.019346237182617,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 40.0,
+      "theta_range_deg": 27.019346237182617,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 44.0,
+      "theta_range_deg": 23.263301849365234,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 48.0,
+      "theta_range_deg": 22.413068771362305,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 52.0,
+      "theta_range_deg": 22.413068771362305,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 56.0,
+      "theta_range_deg": 18.297746658325195,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 60.0,
+      "theta_range_deg": 18.297746658325195,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 64.0,
+      "theta_range_deg": 16.761781692504883,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 68.0,
+      "theta_range_deg": 16.461002349853516,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 72.0,
+      "theta_range_deg": 17.9609375,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 76.0,
+      "theta_range_deg": 19.066368103027344,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 80.0,
+      "theta_range_deg": 19.066368103027344,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 84.0,
+      "theta_range_deg": 20.40018081665039,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 88.0,
+      "theta_range_deg": 24.193782806396484,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 92.0,
+      "theta_range_deg": 24.193782806396484,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 96.0,
+      "theta_range_deg": 24.193782806396484,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 100.0,
+      "theta_range_deg": 24.193782806396484,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 104.0,
+      "theta_range_deg": 16.139436721801758,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 108.0,
+      "theta_range_deg": 19.395055770874023,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 112.0,
+      "theta_range_deg": 19.395055770874023,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 116.0,
+      "theta_range_deg": 25.126877784729004,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "RI_PRECURSOR",
+      "t_h": 120.0,
+      "theta_drop_deg": 23.833629608154297,
+      "dh_surge_pct": 362.11804144877306,
+      "lead_h": 15.0,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 120.0,
+      "theta_range_deg": 32.02824592590332,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 120.0,
+      "theta_drop_deg": 32.02824592590332,
+      "dh_surge_pct": 204.599563205148,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 124.0,
+      "theta_range_deg": 32.02824592590332,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 128.0,
+      "theta_range_deg": 32.02824592590332,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 132.0,
+      "theta_range_deg": 32.02824592590332,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 136.0,
+      "theta_range_deg": 32.02824592590332,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 140.0,
+      "theta_range_deg": 32.02824592590332,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 144.0,
+      "theta_range_deg": 24.273157119750977,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "RI_PRECURSOR",
+      "t_h": 148.0,
+      "theta_drop_deg": 18.69779109954834,
+      "dh_surge_pct": 715.1255425897315,
+      "lead_h": 15.0,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 148.0,
+      "theta_range_deg": 22.659245491027832,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 152.0,
+      "theta_range_deg": 22.659245491027832,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 156.0,
+      "theta_range_deg": 21.558279991149902,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 160.0,
+      "theta_range_deg": 24.788573265075684,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 160.0,
+      "theta_drop_deg": 18.508713722229004,
+      "dh_surge_pct": 1242.9812897303696,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 164.0,
+      "theta_range_deg": 33.26818561553955,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 168.0,
+      "theta_range_deg": 33.26818561553955,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 172.0,
+      "theta_range_deg": 37.96293354034424,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 176.0,
+      "theta_range_deg": 37.96293354034424,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 180.0,
+      "theta_range_deg": 37.96293354034424,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 184.0,
+      "theta_range_deg": 37.96293354034424,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 188.0,
+      "theta_range_deg": 35.1352653503418,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 192.0,
+      "theta_range_deg": 35.1352653503418,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 196.0,
+      "theta_range_deg": 35.1352653503418,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 200.0,
+      "theta_range_deg": 23.86720085144043,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 204.0,
+      "theta_range_deg": 19.651596069335938,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 212.0,
+      "theta_range_deg": 18.211841583251953,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 216.0,
+      "theta_range_deg": 16.115575790405273,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 220.0,
+      "theta_range_deg": 16.115575790405273,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 224.0,
+      "theta_range_deg": 19.209253311157227,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "RI_PRECURSOR",
+      "t_h": 228.0,
+      "theta_drop_deg": 26.57440757751465,
+      "dh_surge_pct": 341.6128893129188,
+      "lead_h": 15.0,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 228.0,
+      "theta_range_deg": 30.087873458862305,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 228.0,
+      "theta_drop_deg": 10.878620147705078,
+      "dh_surge_pct": 383.76713673261,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 232.0,
+      "theta_range_deg": 30.087873458862305,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 236.0,
+      "theta_range_deg": 30.087873458862305,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 240.0,
+      "theta_range_deg": 26.57440757751465,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 244.0,
+      "theta_range_deg": 22.644075393676758,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 248.0,
+      "theta_range_deg": 22.644075393676758,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 252.0,
+      "theta_range_deg": 22.644075393676758,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 256.0,
+      "theta_range_deg": 16.63693618774414,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 260.0,
+      "theta_range_deg": 22.705364227294922,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 660.0,
+      "theta_range_deg": 20.074722290039062,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 664.0,
+      "theta_range_deg": 22.06772804260254,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 668.0,
+      "theta_range_deg": 22.06772804260254,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 672.0,
+      "theta_range_deg": 24.186820030212402,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 676.0,
+      "theta_range_deg": 23.210427284240723,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 684.0,
+      "theta_range_deg": 16.976906776428223,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 688.0,
+      "theta_range_deg": 28.89132595062256,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 692.0,
+      "theta_range_deg": 28.89132595062256,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 696.0,
+      "theta_range_deg": 28.89132595062256,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 700.0,
+      "theta_range_deg": 28.425809860229492,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 704.0,
+      "theta_range_deg": 24.85256290435791,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 708.0,
+      "theta_range_deg": 24.85256290435791,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 712.0,
+      "theta_range_deg": 24.85256290435791,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 716.0,
+      "theta_range_deg": 15.969283103942871,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 716.0,
+      "theta_drop_deg": 14.837359428405762,
+      "dh_surge_pct": 507.562871352651,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 720.0,
+      "theta_range_deg": 21.279528617858887,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 724.0,
+      "theta_range_deg": 20.147604942321777,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 724.0,
+      "theta_drop_deg": 11.951492309570312,
+      "dh_surge_pct": 623.1008779530008,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 728.0,
+      "theta_range_deg": 20.147604942321777,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 732.0,
+      "theta_range_deg": 30.679699897766113,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 736.0,
+      "theta_range_deg": 30.679699897766113,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 740.0,
+      "theta_range_deg": 35.368136405944824,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 740.0,
+      "theta_drop_deg": 28.322035789489746,
+      "dh_surge_pct": 267.4896142436505,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 744.0,
+      "theta_range_deg": 35.368136405944824,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 748.0,
+      "theta_range_deg": 35.368136405944824,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 752.0,
+      "theta_range_deg": 35.368136405944824,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 756.0,
+      "theta_range_deg": 35.368136405944824,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 760.0,
+      "theta_range_deg": 28.322035789489746,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 764.0,
+      "theta_range_deg": 26.747206687927246,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 768.0,
+      "theta_range_deg": 20.72463035583496,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 772.0,
+      "theta_range_deg": 20.72463035583496,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 776.0,
+      "theta_range_deg": 20.72463035583496,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 780.0,
+      "theta_range_deg": 23.621329307556152,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 784.0,
+      "theta_range_deg": 23.621329307556152,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 788.0,
+      "theta_range_deg": 34.36544322967529,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 792.0,
+      "theta_range_deg": 34.36544322967529,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 796.0,
+      "theta_range_deg": 34.36544322967529,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 800.0,
+      "theta_range_deg": 34.36544322967529,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 804.0,
+      "theta_range_deg": 34.36544322967529,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 808.0,
+      "theta_range_deg": 29.1392240524292,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 812.0,
+      "theta_range_deg": 34.307655334472656,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 816.0,
+      "theta_range_deg": 22.20512580871582,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 820.0,
+      "theta_range_deg": 24.289295196533203,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 824.0,
+      "theta_range_deg": 24.289295196533203,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 824.0,
+      "theta_drop_deg": 15.635530471801758,
+      "dh_surge_pct": 553.745836652191,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 828.0,
+      "theta_range_deg": 24.289295196533203,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 832.0,
+      "theta_range_deg": 25.796594619750977,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 836.0,
+      "theta_range_deg": 25.796594619750977,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 840.0,
+      "theta_range_deg": 25.796594619750977,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 844.0,
+      "theta_range_deg": 33.603322982788086,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 848.0,
+      "theta_range_deg": 36.464487075805664,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 852.0,
+      "theta_range_deg": 36.464487075805664,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "RI_PRECURSOR",
+      "t_h": 856.0,
+      "theta_drop_deg": 32.42625904083252,
+      "dh_surge_pct": 640.5411272664746,
+      "lead_h": 15.0,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 856.0,
+      "theta_range_deg": 36.464487075805664,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 856.0,
+      "theta_drop_deg": 11.331622123718262,
+      "dh_surge_pct": 747.0135907740831,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "RI_PRECURSOR",
+      "t_h": 860.0,
+      "theta_drop_deg": 36.67173099517822,
+      "dh_surge_pct": 237.56349124268326,
+      "lead_h": 15.0,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 860.0,
+      "theta_range_deg": 36.67173099517822,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 864.0,
+      "theta_range_deg": 36.67173099517822,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 868.0,
+      "theta_range_deg": 36.67173099517822,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 872.0,
+      "theta_range_deg": 36.67173099517822,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 876.0,
+      "theta_range_deg": 32.02462100982666,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 880.0,
+      "theta_range_deg": 32.02462100982666,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 884.0,
+      "theta_range_deg": 32.02462100982666,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 888.0,
+      "theta_range_deg": 31.493298530578613,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 892.0,
+      "theta_range_deg": 20.421228408813477,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 896.0,
+      "theta_range_deg": 22.83768081665039,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 900.0,
+      "theta_range_deg": 25.846132278442383,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 904.0,
+      "theta_range_deg": 20.103002548217773,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 908.0,
+      "theta_range_deg": 20.103002548217773,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 912.0,
+      "theta_range_deg": 20.103002548217773,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 916.0,
+      "theta_range_deg": 20.103002548217773,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 920.0,
+      "theta_range_deg": 20.103002548217773,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 924.0,
+      "theta_range_deg": 20.103002548217773,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 944.0,
+      "theta_range_deg": 17.036298751831055,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 948.0,
+      "theta_range_deg": 23.666608810424805,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 952.0,
+      "theta_range_deg": 23.666608810424805,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 956.0,
+      "theta_range_deg": 35.99418640136719,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 960.0,
+      "theta_range_deg": 35.99418640136719,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 964.0,
+      "theta_range_deg": 35.99418640136719,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 968.0,
+      "theta_range_deg": 35.99418640136719,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 972.0,
+      "theta_range_deg": 35.99418640136719,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 972.0,
+      "theta_drop_deg": 15.879301071166992,
+      "dh_surge_pct": 217.55051803924613,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 976.0,
+      "theta_range_deg": 19.363203048706055,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 980.0,
+      "theta_range_deg": 19.363203048706055,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1380.0,
+      "theta_range_deg": 27.708189010620117,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1384.0,
+      "theta_range_deg": 27.708189010620117,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1388.0,
+      "theta_range_deg": 27.708189010620117,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1392.0,
+      "theta_range_deg": 27.708189010620117,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1396.0,
+      "theta_range_deg": 24.462255477905273,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1400.0,
+      "theta_range_deg": 21.283588409423828,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1404.0,
+      "theta_range_deg": 21.283588409423828,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1408.0,
+      "theta_range_deg": 18.46800994873047,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1412.0,
+      "theta_range_deg": 24.46261978149414,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1416.0,
+      "theta_range_deg": 24.46261978149414,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "IMPULSE_RESPONSE",
+      "t_h": 1416.0,
+      "theta_drop_deg": 10.765279769897461,
+      "dh_surge_pct": 231.94405775409842,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1420.0,
+      "theta_range_deg": 24.46261978149414,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1428.0,
+      "theta_range_deg": 21.606112480163574,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1432.0,
+      "theta_range_deg": 21.606112480163574,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1436.0,
+      "theta_range_deg": 21.606112480163574,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "RI_PRECURSOR",
+      "t_h": 1440.0,
+      "theta_drop_deg": 18.259449005126953,
+      "dh_surge_pct": 457.6597628202128,
+      "lead_h": 15.0,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1440.0,
+      "theta_range_deg": 20.55142879486084,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1444.0,
+      "theta_range_deg": 20.55142879486084,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1448.0,
+      "theta_range_deg": 23.896809577941895,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1452.0,
+      "theta_range_deg": 23.896809577941895,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1456.0,
+      "theta_range_deg": 17.926142692565918,
+      "confidence": "empirical_baseline"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 1460.0,
+      "theta_range_deg": 27.10261631011963,
+      "confidence": "empirical_baseline"
+    }
+  ],
+  "summary": {
+    "theta_min": 4.658293724060059,
+    "theta_max": 43.5440788269043,
+    "theta_mean": 22.04078438090182,
+    "theta_std": 9.627081991941875,
+    "dh_min": -1.8023100778918888e-05,
+    "dh_max": 2.5505386474833358e-05,
+    "dh_mean": -1.616228741033081e-07,
+    "dh_std": 7.22355557702472e-06,
+    "n_ri_triggers": 6,
+    "n_erc_triggers": 156,
+    "n_impulse_triggers": 11
+  },
+  "results": [
+    {
+      "frame": 164,
+      "t_h": 1424.0,
+      "theta1": 13.446503639221191,
+      "dh_curl": -7.161781923059607e-06,
+      "dfold": NaN,
+      "state": "NO_CYCLONE"
+    },
+    {
+      "frame": 165,
+      "t_h": 1428.0,
+      "theta1": 33.99793243408203,
+      "dh_curl": -6.220561772352085e-07,
+      "dfold": NaN,
+      "state": "ERC_ACTIVE"
+    },
+    {
+      "frame": 166,
+      "t_h": 1432.0,
+      "theta1": 28.027265548706055,
+      "dh_curl": -3.5172643038094975e-06,
+      "dfold": NaN,
+      "state": "ERC_ACTIVE"
+    },
+    {
+      "frame": 167,
+      "t_h": 1436.0,
+      "theta1": 22.502246856689453,
+      "dh_curl": -2.693203896342311e-06,
+      "dfold": NaN,
+      "state": "ERC_ACTIVE"
+    },
+    {
+      "frame": 168,
+      "t_h": 1440.0,
+      "theta1": 15.738483428955078,
+      "dh_curl": 7.402341907436494e-06,
+      "dfold": 1.4757773707620503,
+      "state": "RI_PRECURSOR|ERC_ACTIVE"
+    },
+    {
+      "frame": 169,
+      "t_h": 1444.0,
+      "theta1": 19.7093448638916,
+      "dh_curl": 9.805217359826202e-06,
+      "dfold": NaN,
+      "state": "ERC_ACTIVE"
+    },
+    {
+      "frame": 170,
+      "t_h": 1448.0,
+      "theta1": 10.101122856140137,
+      "dh_curl": 5.538165169127751e-06,
+      "dfold": NaN,
+      "state": "ERC_ACTIVE"
+    },
+    {
+      "frame": 171,
+      "t_h": 1452.0,
+      "theta1": 25.386045455932617,
+      "dh_curl": 6.753578873031074e-06,
+      "dfold": NaN,
+      "state": "ERC_ACTIVE"
+    },
+    {
+      "frame": 172,
+      "t_h": 1456.0,
+      "theta1": 18.979093551635742,
+      "dh_curl": -2.641327682795236e-06,
+      "dfold": NaN,
+      "state": "ERC_ACTIVE"
+    },
+    {
+      "frame": 173,
+      "t_h": 1460.0,
+      "theta1": 37.203739166259766,
+      "dh_curl": 8.679019543933464e-06,
+      "dfold": NaN,
+      "state": "ERC_ACTIVE"
+    }
+  ]
+}

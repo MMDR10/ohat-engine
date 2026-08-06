@@ -1,0 +1,329 @@
+{
+  "engine_version": "0.5",
+  "fixes": [
+    "P1_IBTrACS_spatial",
+    "P2_absolute_dH",
+    "P4_ERC_persistence"
+  ],
+  "case": "goni_2020",
+  "n_frames": 348,
+  "duration_h": 1462.0,
+  "checks": [
+    {
+      "name": "ERC_ACTIVE detected",
+      "passed": true,
+      "detail": "4 triggers"
+    },
+    {
+      "name": "RI_PRECURSOR detected",
+      "passed": true,
+      "detail": "1 triggers"
+    },
+    {
+      "name": "NO_CYCLONE filtering active",
+      "passed": true,
+      "detail": "273/348 frames (78%)"
+    },
+    {
+      "name": "dH_curl dynamic range > 1e-5",
+      "passed": true,
+      "detail": "range=7.52e-04"
+    }
+  ],
+  "n_passed": 4,
+  "n_total": 4,
+  "triggers": [
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 664.0,
+      "theta_range_deg": 24.24849510192871,
+      "persistence_h": 12.0,
+      "confidence": "empirical_baseline_v0.5"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 680.0,
+      "theta_range_deg": 22.287954330444336,
+      "persistence_h": 12.0,
+      "confidence": "empirical_baseline_v0.5"
+    },
+    {
+      "type": "RI_PRECURSOR",
+      "pathway": "P2_chaotic_dh_locked",
+      "t_h": 698.0,
+      "dh_plummet": 8.30176068120636e-05,
+      "dh_end": -0.00036766355333384126,
+      "theta_std_deg": 1.9469241797653243,
+      "theta_min_deg": 37.92198181152344,
+      "confidence": "empirical_baseline_v0.5"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 756.0,
+      "theta_range_deg": 16.516048431396484,
+      "persistence_h": 12.0,
+      "confidence": "empirical_baseline_v0.5"
+    },
+    {
+      "type": "ERC_ACTIVE",
+      "t_h": 770.0,
+      "theta_range_deg": 15.182899475097656,
+      "persistence_h": 12.0,
+      "confidence": "empirical_baseline_v0.5"
+    }
+  ],
+  "state_counts": {
+    "WARMUP": 5,
+    "NO_CYCLONE": 273,
+    "NOMINAL": 24,
+    "ERC_ACTIVE": 21,
+    "RI_PRECURSOR": 25
+  },
+  "ibtracs_stats": {
+    "hits": 70,
+    "misses": 278
+  },
+  "summary": {
+    "theta_min": 4.6357197761535645,
+    "theta_max": 44.57675552368164,
+    "theta_mean": 29.157658227558795,
+    "theta_std": 11.475743918456502,
+    "dh_min": -0.000626880930212792,
+    "dh_max": 0.000125300331831113,
+    "dh_mean": -0.00016801672783283239,
+    "dh_std": 0.00017964627397592864,
+    "triggers": {
+      "ERC_ACTIVE": 4,
+      "RI_PRECURSOR": 1
+    }
+  },
+  "config": {
+    "ibtracs_max_dist_km": 200.0,
+    "ibtracs_max_dt_h": 3.0,
+    "dh_mature_threshold": -1.5e-05,
+    "dh_ri_abs_drop": 5e-06,
+    "erc_persistence_h": 12.0
+  },
+  "results": [
+    {
+      "frame": 328,
+      "t_h": 1424.0,
+      "theta1": 8.497461318969727,
+      "dh_curl": -0.00012023018280160613,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 329,
+      "t_h": 1426.0,
+      "theta1": 9.193416595458984,
+      "dh_curl": -0.00012462800805224106,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 330,
+      "t_h": 1428.0,
+      "theta1": 8.705449104309082,
+      "dh_curl": -0.00012340015018708073,
+      "dfold": 1.514809364272973,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 331,
+      "t_h": 1430.0,
+      "theta1": 9.046181678771973,
+      "dh_curl": -0.0001306348349316977,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 332,
+      "t_h": 1432.0,
+      "theta1": 12.099967956542969,
+      "dh_curl": -0.0001419292420905549,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 25.0,
+      "center_x": 74.0
+    },
+    {
+      "frame": 333,
+      "t_h": 1434.0,
+      "theta1": 14.94068431854248,
+      "dh_curl": -0.00016509502529515885,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 25.0,
+      "center_x": 71.0
+    },
+    {
+      "frame": 334,
+      "t_h": 1436.0,
+      "theta1": 18.115903854370117,
+      "dh_curl": -0.00015635803720215335,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 26.0,
+      "center_x": 67.0
+    },
+    {
+      "frame": 335,
+      "t_h": 1438.0,
+      "theta1": 4.85797119140625,
+      "dh_curl": -0.00012957486978848465,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 336,
+      "t_h": 1440.0,
+      "theta1": 5.62211799621582,
+      "dh_curl": -0.00014438231301028281,
+      "dfold": 1.5117627421755215,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 337,
+      "t_h": 1442.0,
+      "theta1": 4.6357197761535645,
+      "dh_curl": -0.00013660986587638035,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 338,
+      "t_h": 1444.0,
+      "theta1": 6.961997985839844,
+      "dh_curl": -0.00012917816275148652,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 339,
+      "t_h": 1446.0,
+      "theta1": 8.854825019836426,
+      "dh_curl": -0.0001325044358964078,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 340,
+      "t_h": 1448.0,
+      "theta1": 9.491288185119629,
+      "dh_curl": -0.00013043417129665613,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 341,
+      "t_h": 1450.0,
+      "theta1": 7.314709663391113,
+      "dh_curl": -0.00012823972792830318,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 0.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 342,
+      "t_h": 1452.0,
+      "theta1": 9.160317420959473,
+      "dh_curl": -0.00017413584737369092,
+      "dfold": 1.5191009010959353,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 2.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 343,
+      "t_h": 1454.0,
+      "theta1": 13.611615180969238,
+      "dh_curl": -0.0001668505037741852,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 3.0,
+      "center_x": 21.0
+    },
+    {
+      "frame": 344,
+      "t_h": 1456.0,
+      "theta1": 10.848516464233398,
+      "dh_curl": -0.00015247232840920333,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 2.0,
+      "center_x": 21.0
+    },
+    {
+      "frame": 345,
+      "t_h": 1458.0,
+      "theta1": 7.3560895919799805,
+      "dh_curl": -0.0001608210241101915,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 1.0,
+      "center_x": 22.0
+    },
+    {
+      "frame": 346,
+      "t_h": 1460.0,
+      "theta1": 6.807656764984131,
+      "dh_curl": -0.00015193752915365621,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 1.0,
+      "center_x": 21.0
+    },
+    {
+      "frame": 347,
+      "t_h": 1462.0,
+      "theta1": 8.856837272644043,
+      "dh_curl": -0.00014843937242403626,
+      "dfold": NaN,
+      "state": "NO_CYCLONE",
+      "ibtracs": {},
+      "center_y": 2.0,
+      "center_x": 21.0
+    }
+  ]
+}

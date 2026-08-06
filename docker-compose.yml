@@ -1,0 +1,49 @@
+# Ô-HAT Engine v0.5 — Docker Compose
+# Universal noise topology engine. Multiple mount profiles below.
+
+version: "3.8"
+
+services:
+  ohat-engine:
+    build: .
+    image: ohat-engine:v0.5
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  # ── Profile: Typhoon (default) ──
+  typhoon:
+    extends: ohat-engine
+    profiles: [typhoon]
+    volumes:
+      - /path/to/era5:/data/era5:ro
+      - /path/to/ibtracs:/data/ibtracs:ro
+      - ./output:/output
+    # docker compose --profile typhoon run typhoon \
+    #   --nc /data/era5/haiyan_2013.nc --ibtracs /data/ibtracs/ibtracs_all.csv \
+    #   --storm HAIYAN --year 2013 --subsample 2 --output-dir /output
+
+  # ── Profile: Generic (any NetCDF 2D field) ──
+  generic:
+    extends: ohat-engine
+    profiles: [generic]
+    volumes:
+      - /path/to/data:/data:ro
+      - ./output:/output
+    # docker compose --profile generic run generic \
+    #   --nc /data/sst_monthly.nc --output-dir /output
+
+  # ── Profile: Quick test (Haiyan 2013) ──
+  test:
+    extends: ohat-engine
+    profiles: [test]
+    volumes:
+      - ../../data/typhoons:/data/era5:ro
+      - ../../projects/cyclone/data:/data/ibtracs:ro
+      - ./output:/output
+    command:
+      - --nc=/data/era5/haiyan_2013.nc
+      - --ibtracs=/data/ibtracs/ibtracs_all.csv
+      - --storm=HAIYAN
+      - --year=2013
+      - --subsample=2
+      - --output-dir=/output
