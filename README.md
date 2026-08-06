@@ -4,6 +4,7 @@
 > Typhoon rapid intensification (RI) and eyewall replacement cycle (ERC) detection is
 > the first fully validated domain.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21816438.svg)](https://doi.org/10.5281/zenodo.21816438)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)](https://www.docker.com/)
@@ -255,7 +256,7 @@ Each run produces `engine_v0.5_{name}_{year}.json`:
 
 If you use the Ô-HAT Engine in your research, please cite:
 
-> tygtDc, Deep Research. (2026). *Ô-HAT Engine: Real-Time Noise Topology Engine for Dynamical Regime Shift Detection (v0.5)*. Zenodo. DOI: [pending]
+> tygtDc, Deep Research. (2026). *Ô-HAT Engine: Real-Time Noise Topology Engine for Dynamical Regime Shift Detection (v0.5)*. Zenodo. DOI: [10.5281/zenodo.21816438](https://doi.org/10.5281/zenodo.21816438)
 
 ---
 
